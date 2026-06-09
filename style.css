@@ -16,9 +16,9 @@ body{
     display:block;
     }
     
-    .gato{
-        width:300px;
-        max-width:70%;
+    .gato1{
+        width:250px;
+        max-width:60%;
     
         border:8px solid white;
     
@@ -33,7 +33,40 @@ body{
     
         margin-bottom:20px;
     }
+      .gato2{
+        width:400px;
+        max-width:60%;
     
+        border:8px solid white;
+    
+        border-radius:25px;
+    
+        padding:8px;
+    
+        background:white;
+    
+        box-shadow:
+            0 10px 30px rgba(0,0,0,.15);
+    
+        margin-bottom:20px;
+    }
+    .gato{
+        width:400px;
+        max-width:60%;
+    
+        border:8px solid white;
+    
+        border-radius:25px;
+    
+        padding:8px;
+    
+        background:white;
+    
+        box-shadow:
+            0 10px 30px rgba(0,0,0,.15);
+    
+        margin-bottom:20px;
+    }
     h1,h2,h3,p{
     color:#333;
     }
