@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    background:#fff8f4;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    overflow-x:hidden;
+    }
+    
+    .pantalla{
+    display:none;
+    min-height:100vh;
+    padding:40px 20px;
+    }
+    
+    .activa{
+    display:block;
+    }
+    
+    .gato{
+        width:300px;
+        max-width:70%;
+    
+        border:8px solid white;
+    
+        border-radius:25px;
+    
+        padding:8px;
+    
+        background:white;
+    
+        box-shadow:
+            0 10px 30px rgba(0,0,0,.15);
+    
+        margin-bottom:20px;
+    }
+    
+    h1,h2,h3,p{
+    color:#333;
+    }
+    
+    .botones{
+    margin-top:25px;
+    }
+    
+    button{
+    padding:12px 28px;
+    margin:10px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:18px;
+    }
+    
+    #btnSi{
+    background:#98e69a;
+    }
+    
+    #btnNo{
+    background:#ffb3b3;
+    }
+    
+    #continuar{
+    background:#98e69a;
+    }
+    
+    .oculto{
+    display:none;
+    }
+    
+    #mensajeEscape{
+    margin-top:15px;
+    color:#666;
+    font-weight:bold;
+    }
+    
+    .confeti{
+    position:fixed;
+    top:-30px;
+    font-size:24px;
+    animation:caer 4s linear infinite;
+    }
+    
+    @keyframes caer{
+    
+    
+    from{
+        transform:translateY(-30px);
+    }
+    
+    to{
+        transform:translateY(110vh);
+    }
+    
+    
+    }
+    
